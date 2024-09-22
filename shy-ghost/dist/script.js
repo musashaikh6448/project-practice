@@ -22,7 +22,7 @@ class Ghost {
     this.activityInterval = null;
   }
   
-  
+
   reset() {
     this.scene.remove();
     this.scene = this.clone.cloneNode(true);
